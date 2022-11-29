@@ -616,10 +616,10 @@ export const buildTianApi = async (apiType, params = null) => {
     return []
   }
 
-  if (RUN_TIME_STORAGE[`${apiType}_${JSON.stringify(params)}_${count}`]) {
-    console.log(`获取了相同的数据，读取缓存 >>> ${apiType}_${JSON.stringify(params)}_${count}`)
-    return RUN_TIME_STORAGE[`${apiType}_${JSON.stringify(params)}_${count}`]
-  }
+//   if (RUN_TIME_STORAGE[`${apiType}_${JSON.stringify(params)}_${count}`]) {
+//     console.log(`获取了相同的数据，读取缓存 >>> ${apiType}_${JSON.stringify(params)}_${count}`)
+//     return RUN_TIME_STORAGE[`${apiType}_${JSON.stringify(params)}_${count}`]
+//   }
 
   const url = `http://api.tianapi.com/${apiType}/index`
   const res = await axios.get(url, {
