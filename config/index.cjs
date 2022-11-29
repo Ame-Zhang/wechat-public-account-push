@@ -23,9 +23,9 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '小丁',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'o87ad6UXQO1gkbgAmXvn0kntre94',
+      id: 'o87ad6S5slgwaLMsr2SKduTkCVQU',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'XgNfJx09XriFb80xoYFWeTsqn2YK0-18VjXEoRoZy6s',
+      useTemplateId: 'gysjz9KlvODa9_w3BCOKipe9sE5Y1tTCqjoYM_BKCvw',
 
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '05-28',
@@ -51,9 +51,9 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '小丁',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'o87ad6UXQO1gkbgAmXvn0kntre94',
+      id: 'o87ad6S5slgwaLMsr2SKduTkCVQU',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'Og2VAZ0dMlAOZ_CIxWNHOVx0otRQKp9RgzSvbbsmXro',
+      useTemplateId: 'nIeDwWyPEP83OuDiTBuqXGKZ8GDSo1OXQDz7cYnG4uc',
     },
   ],
 
@@ -97,7 +97,7 @@ const USER_CONFIG = {
     oneTalk: false,
     
     // 土味情话(彩虹屁), 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    earthyLoveWords: false,
+    earthyLoveWords: true,
     
     // 朋友圈文案, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     momentCopyrighting: false,
