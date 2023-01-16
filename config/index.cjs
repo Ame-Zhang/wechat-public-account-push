@@ -44,7 +44,7 @@ const USER_CONFIG = {
         // 在一起的日子
         { keyword: 'love_day', date: '2022-10-30' },
         // 跨年
-        { keyword: 'new_date', date: '2023-01-01' },
+        { keyword: 'new_date', date: '2024-01-01' },
       ],
     },
     {
