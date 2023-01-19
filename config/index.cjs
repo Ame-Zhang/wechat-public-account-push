@@ -25,7 +25,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o87ad6UXQO1gkbgAmXvn0kntre94',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'gysjz9KlvODa9_w3BCOKipe9sE5Y1tTCqjoYM_BKCvw',
+      useTemplateId: '8sL7KXxVwOZuUsyY34Li_0FjyHnmlI0gfZlyPCMwo7w',
 
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '05-28',
@@ -54,6 +54,34 @@ const USER_CONFIG = {
       id: 'o87ad6UXQO1gkbgAmXvn0kntre94',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'nIeDwWyPEP83OuDiTBuqXGKZ8GDSo1OXQDz7cYnG4uc',
+    },
+    {
+      // 想要发送的人的名字
+      name: '自己',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'o87ad6S5slgwaLMsr2SKduTkCVQU',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: '8sL7KXxVwOZuUsyY34Li_0FjyHnmlI0gfZlyPCMwo7w',
+
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '05-28',
+      horoscopeDateType: '今日',
+      festivals: [
+        {
+          type: '生日', name: '宝贝丁', year: '2000', date: '05-28',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '港都康', year: '1998', date: '12-23',
+        },
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2022-10-30' },
+        // 跨年
+        { keyword: 'new_date', date: '2024-01-01' },
+      ],
     },
   ],
 
